@@ -67,7 +67,7 @@ export default function Toggle() {
         display:"flex",
         justifyContent:"center",
         alignItems:"center",
-        backgroundColor:"lightpink",
+        backgroundColor:"lightblue",
         width:"100vw"
     }}>
       <ToggleCompound>
