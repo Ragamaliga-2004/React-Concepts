@@ -1,11 +1,16 @@
 import React from 'react'
 import ChildTwo from './ChildTwo'
 
-const ChildOne = ({name}) => {
+const ChildOne = ({ name }) => {
   return (
-    <div>
-        <h1>CHILD 1 : Passing name Props to Child 2</h1>
-        <ChildTwo name={name} />
+    <div style={{
+      margin: "20px auto",
+      padding: "20px",
+      width: "60%",
+      backgroundColor: "#EAF2FA"
+    }}>
+      <h3 style={{ color: "darkblue" }}>CHILD 1 : Passing name Props to Child 2</h3>
+      <ChildTwo name={name} />
     </div>
   )
 }
